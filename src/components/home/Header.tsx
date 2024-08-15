@@ -20,7 +20,7 @@ export default function Header() {
                <p className='text-slate-400 tracking-wide md:text-[16px] text-sm'>Hey, I am Diptanshu Mahish, and probably you already know about me since you are reading the docs . Well I&apos;m a developer, No I don&apos;t develop feelings, rather I develop stuff for the web and sometimes for the phones and such devices. <br /> This website has all the docs you need to work with things I make, such as the  <code className='bg-slate-400 bg-opacity-10 text-white'> windows_utlities</code> and the <code className='bg-slate-400 bg-opacity-10 text-white'>calendify</code>. All upcoming things I make will be linked here. You can always check out the blogs on my original website <a className='underline text-yellow-200' href='https://diptanshumahish.in/blogs'>visit blogs here</a> </p>
 
             {/* to add the buttons  */}
-            <div className='py-4 flex gap-4'>
+            <div className='py-4 flex gap-4 md:flex-row flex-col'>
               <LinkButton color='#f9c47f' link='' text='Read the docs' icon={<ArrowUpRight/>}  />
               <LinkButton color='#ffffff' link='https://diptanshumahish.in' text='Visit main website' icon={<Heart/>}  />
             </div>
