@@ -29,7 +29,7 @@ const LinkButton: React.FC<Props> = ({
   return (
     <Link href={link} className={`z-10 ${fullWidth ? "w-full" : ""}`}>
       <span
-        className={`inline-flex items-center rounded-md px-4 py-2 transition-colors duration-300 font-semibold text-[15px] tracking-wide ${
+        className={`inline-flex items-center rounded-md hover:bg-opacity-80  px-4 py-2 transition-colors duration-300 font-semibold text-[15px] tracking-wide ${
           fullWidth ? "justify-center" : ""
         }   ${fullWidth ? "w-full" : ""} ${
           isLightColor ? "text-black" : "text-white"
