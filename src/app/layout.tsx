@@ -3,6 +3,7 @@ import { geist_mono } from "@/fonts/fonts";
 import "./globals.css";
 import Navbar from "@/components/common/Navbar/Navbar";
 import WidthLimiter from "@/components/wrappers/Layout/WidthLimiter";
+import Footer from "@/components/common/Footer/Footer";
 
 
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Navbar/>
 
         {children}
+        <Footer/>
 
         </body>
     </html>
