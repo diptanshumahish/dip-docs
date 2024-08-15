@@ -12,7 +12,7 @@ export default function Header() {
         <Image src="/assets/svg/header.svg" height={400} width={1000} className='w-[30%] h-auto' alt='dptnshu Home' />
         <div className='flex flex-col items-center justify-center'>
            <div className='flex flex-col gap-2 py-4 items-center  justify-center'>
-           <h1 className='md:text-[48px] font-bold'>dptnshu | Docs.</h1>
+           <h1 className='md:text-[48px] font-bold'>dptnshu. | Docs.</h1>
            <p>The docs all by Diptanshu Mahish</p>
            </div>
             <div className='flex gap-4'>
