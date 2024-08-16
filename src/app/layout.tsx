@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { geist_mono } from "@/fonts/fonts";
 import "./globals.css";
 import Navbar from "@/components/common/Navbar/Navbar";
-import WidthLimiter from "@/components/wrappers/Layout/WidthLimiter";
 import Footer from "@/components/common/Footer/Footer";
 
 
@@ -10,6 +9,7 @@ import Footer from "@/components/common/Footer/Footer";
 export const metadata: Metadata = {
   title: "Docs | Diptanshu Mahish",
   description: "docs for things by diptanshu mahish",
+
 };
 
 export default function RootLayout({

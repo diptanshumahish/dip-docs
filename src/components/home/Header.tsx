@@ -21,7 +21,7 @@ export default function Header() {
 
             {/* to add the buttons  */}
             <div className='py-4 flex gap-4 md:flex-row flex-col'>
-              <LinkButton color='#f9c47f' link='' text='Read the docs' icon={<ArrowUpRight/>}  />
+              <LinkButton color='#f9c47f' link='/docs' text='Read the docs' icon={<ArrowUpRight/>}  />
               <LinkButton color='#ffffff' link='https://diptanshumahish.in' text='Visit main website' icon={<Heart/>}  />
             </div>
             </div>
